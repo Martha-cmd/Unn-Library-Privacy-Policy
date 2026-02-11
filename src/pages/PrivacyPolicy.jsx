@@ -1,4 +1,4 @@
-export default function PrivacyPolicy() {
+function PrivacyPolicy() {
   return (
     <div className="bg-[#1E1E1E] min-h-screen md:py-16 md:px-6 px-0">
       <div className="max-w-4xl mx-auto bg-[#171717] text-white shadow-lg rounded-2xl p-10 space-y-10">
@@ -219,3 +219,5 @@ export default function PrivacyPolicy() {
     </div>
   );
 }
+
+export default PrivacyPolicy;
